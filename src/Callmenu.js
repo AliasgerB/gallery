@@ -19,31 +19,6 @@ export const Callmenu = ({ filterData, callItem }) => {
           );
         })}
       </article>
-
-      {/* <button
-          className="company-btn"
-          onClick={() => {
-            setitems(Products);
-          }}
-        >
-          all
-        </button> */}
-      {/* <button
-        className="company-btn"
-        onClick={() => {
-          filterData("ikea");
-        }}
-      >
-        ikea
-      </button>
-      <button
-        className="company-btn"
-        onClick={() => {
-          filterData("marcos");
-        }}
-      >
-        marcos
-      </button> */}
     </>
   );
 };

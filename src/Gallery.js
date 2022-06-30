@@ -47,7 +47,7 @@ export const Gallery = () => {
         {/* <!-- categories --> */}
         <Callmenu filterData={filterData} callItem={callItem} />
         {/* <!-- products --> */}
-        <MenuItems items={items} />;
+        <MenuItems items={items} />
       </section>
     </>
   );
